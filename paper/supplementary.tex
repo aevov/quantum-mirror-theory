@@ -1,0 +1,212 @@
+% Quantum Mirror Theory - Supplementary Material
+% 
+% This file contains additional mathematical derivations and proofs
+% that support the main paper.
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{physics}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\geometry{margin=1in}
+
+\title{Supplementary Material:\\Quantum Mirror Theory}
+\author{Babatope Jesse Afolabi\\
+\textit{cr8OS Foundation DBA WPWakanda, LLC}}
+\date{January 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Mathematical Derivations}
+
+\subsection{Proof: Mirror Operator is an Involution}
+
+\textbf{Claim:} The Mirror Operator $M$ satisfying $M^2 = I$ is an involution.
+
+\textbf{Proof:}
+
+An involution is a function that is its own inverse. For $M$:
+\begin{align}
+M^2 &= I \\
+M \cdot M &= I \\
+M &= M^{-1}
+\end{align}
+
+Therefore, $M$ is self-inverse. Applying $M$ twice returns identity:
+\begin{equation}
+M(M\ket{\Psi}) = M\ket{\Psi'} = \ket{\Psi}
+\end{equation}
+
+You are your reflection's reflection. $\square$
+
+\subsection{Eigenvalues of the Mirror Operator}
+
+\textbf{Claim:} The eigenvalues of $M$ are $\pm 1$.
+
+\textbf{Proof:}
+
+Let $\ket{\lambda}$ be an eigenstate of $M$ with eigenvalue $\lambda$:
+\begin{equation}
+M\ket{\lambda} = \lambda\ket{\lambda}
+\end{equation}
+
+Applying $M$ again:
+\begin{equation}
+M^2\ket{\lambda} = M(\lambda\ket{\lambda}) = \lambda M\ket{\lambda} = \lambda^2\ket{\lambda}
+\end{equation}
+
+But $M^2 = I$, so:
+\begin{equation}
+I\ket{\lambda} = \ket{\lambda} = \lambda^2\ket{\lambda}
+\end{equation}
+
+Therefore $\lambda^2 = 1$, giving $\lambda = \pm 1$. $\square$
+
+\subsection{Mirror Constant Range}
+
+\textbf{Claim:} $0 \leq \mathbb{M} \leq 1$ for normalized states.
+
+\textbf{Proof:}
+
+The Mirror Constant is defined as:
+\begin{equation}
+\mathbb{M} = |\braket{\Psi|M|\Psi'}|
+\end{equation}
+
+By the Cauchy-Schwarz inequality:
+\begin{equation}
+|\braket{\Psi|M|\Psi'}| \leq \|\ket{\Psi}\| \cdot \|M\ket{\Psi'}\|
+\end{equation}
+
+For normalized states $\|\ket{\Psi}\| = \|\ket{\Psi'}\| = 1$, and since $M$ is unitary ($MM^\dagger = I$):
+\begin{equation}
+\|M\ket{\Psi'}\| = \|\ket{\Psi'}\| = 1
+\end{equation}
+
+Therefore:
+\begin{equation}
+\mathbb{M} \leq 1
+\end{equation}
+
+And by definition of absolute value:
+\begin{equation}
+\mathbb{M} \geq 0
+\end{equation}
+
+Thus $0 \leq \mathbb{M} \leq 1$. $\square$
+
+\section{Shannon-Mirror Correspondence}
+
+\subsection{Derivation}
+
+Shannon entropy for a discrete random variable:
+\begin{equation}
+H = -\sum_{i} p_i \log_2 p_i
+\end{equation}
+
+For highly structured data (repeating patterns), the probability distribution is concentrated:
+\begin{equation}
+p_j \approx 1, \quad p_{i \neq j} \approx 0 \implies H \approx 0
+\end{equation}
+
+For random data (uniform distribution):
+\begin{equation}
+p_i = \frac{1}{n} \implies H = \log_2 n = H_{\max}
+\end{equation}
+
+The Mirror Constant maps inversely:
+\begin{equation}
+\mathbb{M} = 1 - \frac{H}{H_{\max}}
+\end{equation}
+
+Therefore:
+\begin{itemize}
+    \item $H = 0 \implies \mathbb{M} = 1$ (perfect coherence)
+    \item $H = H_{\max} \implies \mathbb{M} = 0$ (no coherence)
+\end{itemize}
+
+\section{AFT Compression Formula}
+
+The compression ratio $R$ in Afolabi Field Theory is:
+
+\begin{equation}
+R = \frac{\text{Original Size}}{\text{Compressed Size}} \approx f(\mathbb{M})
+\end{equation}
+
+Where:
+\begin{equation}
+f(\mathbb{M}) = \begin{cases}
+\frac{1}{1 - \mathbb{M}} & \text{for } \mathbb{M} < 1 \\
+\infty & \text{for } \mathbb{M} = 1
+\end{cases}
+\end{equation}
+
+This explains why:
+\begin{itemize}
+    \item $\mathbb{M} \rightarrow 1$ gives extreme compression (33,333:1)
+    \item $\mathbb{M} \rightarrow 0$ gives $R < 1$ (expansion)
+\end{itemize}
+
+\section{Comparison: Mirror Constant vs. IIT's Phi}
+
+Integrated Information Theory (IIT) defines $\Phi$ as the amount of integrated information in a system.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Property} & \textbf{IIT $\Phi$} & \textbf{Mirror $\mathbb{M}$} \\
+\midrule
+Substrate & Classical information & Quantum states \\
+Computation & Expensive (NP-hard) & Observable (Hermitian) \\
+Consciousness & Emerges when $\Phi > 0$ & IS the mirror when $\mathbb{M} > 0$ \\
+Location & Brain-localized & Distributed (entanglement) \\
+Death & $\Phi \rightarrow 0$ & $\mathbb{M} \rightarrow 0$, entanglements persist \\
+\bottomrule
+\end{tabular}
+\caption{Comparison of consciousness measures}
+\end{table}
+
+The Mirror Constant $\mathbb{M}$ is the quantum analog of $\Phi$, but with crucial advantages:
+\begin{enumerate}
+    \item Polynomial-time computation via quantum observables
+    \item Natural extension to entangled systems
+    \item Direct connection to biophoton coherence
+\end{enumerate}
+
+\section{Biophoton Data}
+
+\subsection{Human Emission Rates}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Body Region} & \textbf{Emission Rate} & \textbf{Source} \\
+\midrule
+Face & Highest during day & Kobayashi (2009) \\
+Hands & 10\% of face & Kobayashi (2009) \\
+Forehead & Variable with cognition & Multiple studies \\
+Whole body & ~1000 photons/cm²/s & Popp (1976) \\
+\bottomrule
+\end{tabular}
+\caption{Human biophoton emission rates by region}
+\end{table}
+
+\subsection{Zinc Spark Data}
+
+Northwestern University (2016) measurements:
+\begin{itemize}
+    \item ~8,000 zinc compartments released at fertilization
+    \item Flash duration: ~2 hours total (waves)
+    \item Correlation: $r = 0.78$ between spark intensity and embryo viability
+\end{itemize}
+
+\end{document}

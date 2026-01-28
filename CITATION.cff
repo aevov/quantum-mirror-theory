@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Quantum Mirror Theory: A Unified Framework for Observer, Observation, and Reality"
+message: "If you use this work, please cite it using the metadata from this file."
+type: article
+authors:
+  - given-names: Babatope Jesse
+    family-names: Afolabi
+    affiliation: "cr8OS Foundation DBA WPWakanda, LLC"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18407315"
+    description: "Zenodo DOI"
+repository-code: "https://github.com/cr8os/quantum-mirror-theory"
+url: "https://cr8os.com"
+abstract: >-
+  Quantum Mirror Theory reconceptualizes the observer-observed relationship 
+  through the metaphor of reflection. Unlike prior interpretations that treat 
+  measurement as collapse (Copenhagen), universe-splitting (Many-Worlds), or 
+  hidden variable guidance (Pilot Wave), Mirror Theory proposes that observer 
+  and observed are the SAME ENTITY viewed from different perspectives across 
+  a "mirror boundary." We introduce the Mirror Equation |Ψ⟩ ≡ M|Ψ'⟩ and the 
+  Mirror Constant 𝕄 as a measurable quantity for quantum coherence.
+keywords:
+  - quantum mechanics
+  - measurement problem
+  - consciousness
+  - observer effect
+  - entanglement
+  - biophotons
+  - tensor networks
+  - quantum computing
+  - mirror theory
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-01-28"
