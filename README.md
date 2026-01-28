@@ -100,6 +100,6 @@ This work is licensed under [Creative Commons Attribution 4.0 International](htt
 
 ---
 
-*The cat is dead. The mirror is alive.*
+*The cat is out. The mirror is alive.*
 
 **Welcome to the Quantum Mirror.**
