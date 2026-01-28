@@ -1416,7 +1416,7 @@ The mirror changes everything.
 
 When you look in a mirror, you see yourself—and you see another. They are the same. This is quantum reality: entities existing simultaneously, connected instantaneously, never truly separate.
 
-**The cat is dead.**
+**The cat is out.**
 
 **The mirror is alive.**
 
