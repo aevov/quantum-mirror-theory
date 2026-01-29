@@ -1,6 +1,6 @@
 # Quantum Mirror Theory
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18407315.svg)](https://doi.org/10.5281/zenodo.18407315)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18407686.svg)](https://doi.org/10.5281/zenodo.18407686)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **A Unified Framework for Observer, Observation, and Reality**
@@ -80,7 +80,7 @@ quantum-mirror-theory/
   author={Afolabi, Babatope Jesse},
   journal={Zenodo},
   year={2026},
-  doi={10.5281/zenodo.18407315},
+  doi={10.5281/zenodo.18407686},
   publisher={cr8OS Foundation}
 }
 ```
@@ -95,7 +95,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International](htt
 
 ## Links
 
-- **DOI:** [10.5281/zenodo.18407315](https://doi.org/10.5281/zenodo.18407315)
+- **DOI:** [10.5281/zenodo.18407686](https://doi.org/10.5281/zenodo.18407686)
 - **Website:** [cr8os.com](https://cr8os.com)
 
 ---
