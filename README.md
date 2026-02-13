@@ -3,6 +3,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18407686.svg)](https://doi.org/10.5281/zenodo.18407686)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+Aevov's Quantum Mirror Theory: A Unified Framework for Observer, Observation, and Reality | Author: Babatope Jesse Afolabi | DOI: 10.5281/zenodo.18407686 and is part of the "Aevov Trinity" for the "Theory Of Everything" under "Afolabi Unified Framework"
+
 **A Unified Framework for Observer, Observation, and Reality**
 
 *By Babatope Jesse Afolabi | cr8OS Foundation*
