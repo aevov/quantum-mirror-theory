@@ -7,7 +7,7 @@ Aevov's Quantum Mirror Theory: A Unified Framework for Observer, Observation, an
 
 **A Unified Framework for Observer, Observation, and Reality**
 
-*By Babatope Jesse Afolabi | cr8OS Foundation*
+*By Babatope Yishai Afolabi | cr8OS Foundation*
 
 ---
 
