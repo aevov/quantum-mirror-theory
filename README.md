@@ -79,7 +79,7 @@ quantum-mirror-theory/
 ```bibtex
 @article{afolabi2026quantum,
   title={Quantum Mirror Theory: A Unified Framework for Observer, Observation, and Reality},
-  author={Afolabi, Babatope Jesse},
+  author={Afolabi, Babatope },
   journal={Zenodo},
   year={2026},
   doi={10.5281/zenodo.18407686},
